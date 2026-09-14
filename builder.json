@@ -1,0 +1,18 @@
+{
+  "project": "iOSSampleApp",
+  "platform": "ios",
+  "github": {
+    "owner": "igorkulman",
+    "repo": "iOSSampleApp"
+  },
+  "provider": "github",
+  "codemagic": {},
+  "bitrise": {},
+  "ios": {},
+  "flutter": {
+    "watch": {}
+  },
+  "reactNative": {},
+  "kmp": {},
+  "mobai": {}
+}
