@@ -32,7 +32,7 @@ Sample iOS app written the way I write iOS apps because I cannot share the app I
 
 ### Prerequisites
 
-* Xcode 27.0+ (macOS Tahoe 26.6+, Apple silicon; CI uses macos-26 runner with Xcode 27 selected via setup-xcode)
+* Xcode 27.0+ (macOS Tahoe 26.6+ / macOS 27, Apple silicon; CI uses xcode-27 runner with Xcode 27)
 * [Fastlane](https://fastlane.tools/) (optional)
 
 ## Built with

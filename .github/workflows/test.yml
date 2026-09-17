@@ -5,7 +5,7 @@ on: [push, pull_request]
 jobs:
   job-test:
     name: Run unit tests (Xcode 27)
-    runs-on: macos-26
+    runs-on: xcode-27
     steps:
     - uses: actions/checkout@v4
 

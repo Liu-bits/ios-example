@@ -49,7 +49,7 @@ on:
 
 jobs:
   simulator:
-    runs-on: macos-26
+    runs-on: xcode-27
     # Bounds the session: a simulator nobody released must not hold a runner
     # indefinitely. Comfortably above the default duration.
     timeout-minutes: 90
@@ -80,7 +80,7 @@ jobs:
       - name: Setup Xcode
         uses: maxim-lobanov/setup-xcode@v1
         with:
-          # Keep simulator builds on the same Xcode 27 toolchain as ios-build.
+          # xcode-27 镜像默认已是 Xcode 27，此处显式 pin 住防止漂移。
           xcode-version: '27.0'
 
       - name: Restore DerivedData cache
