@@ -23,7 +23,7 @@ end
 
 desc "Run all unit tests"
 lane :tests do
-  run_tests(devices: ["iPhone 14"],
+  run_tests(devices: ["iPhone 17"],
             project: "Sources/iOSSampleApp.xcodeproj",
             skip_testing: "iOSSampleAppUITests",
             xcargs: "-skipPackagePluginValidation",

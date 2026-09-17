@@ -3,7 +3,6 @@
 Sample iOS app written the way I write iOS apps because I cannot share the app I currently work on.
 
 **SwiftUI**: I created a SwiftUI version of this sample app, using a bit defferent concepts: https://github.com/igorkulman/SwiftUISampleApp
-
 ## Shown concepts
 
 ### Architecture concepts
@@ -33,7 +32,7 @@ Sample iOS app written the way I write iOS apps because I cannot share the app I
 
 ### Prerequisites
 
-* Xcode 26
+* Xcode 27.0+ (macOS Tahoe 26.6+, Apple silicon; CI uses macos-26 runner with Xcode 27 selected via setup-xcode)
 * [Fastlane](https://fastlane.tools/) (optional)
 
 ## Built with
